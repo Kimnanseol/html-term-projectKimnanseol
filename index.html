@@ -1,16 +1,74 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="ko">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bomnal&</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  Hello world fdds
-  <script src="script.js"></script>
-</body>
+  <header class="bg-white shadow-md">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <div class="text-3xl font-bold text-black">Bomnal&</div>
+      <nav class="flex space-x-6">
+        <a href="#" class="text-black hover:text-gray-500">Bomnal&</a>
+        <a href="#" class="text-black hover:text-gray-500">Shop</a>
+        <a href="#" class="text-black hover:text-gray-500">Community</a>
+        <a href="#" class="text-black hover:text-gray-500">Contact</a>
+      </nav>
+      <div class="flex space-x-4">
+        <i class="fas fa-search text-black"></i>
+        <i class="fas fa-user text-black"></i>
+        <i class="fas fa-shopping-bag text-black"></i>
+      </div>
+    </div>
+  </header>
+  
+  <div class="bg-red-600 text-white py-6">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold">봄날엔이 처음인 고객님을 위한 혜택</h2>
+      <p class="text-xl mt-2">신규 가입회원에게는 쇼핑 지원금 3,000원을 드려요!</p>
+    </div>
+  </div>
 
+  <main class="container mx-auto py-10">
+    <section class="text-center mb-10">
+      <h3 class="text-2xl font-bold">Bomnal& Dessert</h3>
+      <p class="text-gray-600 mt-2">봄날엔의 달콤한 디저트들을 만나보세요</p>
+    </section>
+    
+    <section class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-white shadow-md rounded-lg overflow-hidden">
+        <img src="yak.png" alt="Product 1" class="w-full">
+        <div class="p-6">
+          <h4 class="text-xl font-semibold">여수언니 봄날엔약과 (40g x 10개입, 총 400g)</h4>
+          <p class="text-red-600 mt-2"><del>10,000원</del> <strong>8,900원</strong></p>
+        </div>
+      </div>
+      <div class="bg-white shadow-md rounded-lg overflow-hidden">
+        <img src="dduck.png" alt="Product 2" class="w-full">
+        <div class="p-6">
+          <h4 class="text-xl font-semibold">여수언니 봄날엔 구름크림떡 (60g x 6개입, 총 360g)</h4>
+          <p class="text-red-600 mt-2"><del>13,000원</del> <strong>11,900원</strong></p>
+        </div>
+      </div>
+      <div class="bg-white shadow-md rounded-lg overflow-hidden">
+        <img src="cho.png" alt="Product 3" class="w-full">
+        <div class="p-6">
+          <h4 class="text-xl font-semibold">여수언니 봄날엔 초코구름떡 (60g x 6개입, 총 360g)</h4>
+          <p class="text-red-600 mt-2"><del>13,000원</del> <strong>11,900원</strong></p>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <footer class="bg-gray-800 text-white py-4">
+    <div class="container mx-auto text-center">
+      <p>ⓒ2024 html-term-project_Kimnanseol_U2023066 </p>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
 </html>

@@ -1,4 +1,16 @@
-html {
-  height: 100%;
-  width: 100%;
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.bg-red-600 {
+  background-color: #ff5722;
+}
+
+.text-red-600 {
+  color: #ff5722;
 }
